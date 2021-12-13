@@ -80,9 +80,9 @@
           <tr>
             
             <td> <input type="checkbox" name="<%= i._id %>"></td>
-             <td> <p id="recipe-description"><%= i.description %></td>
-             <td> <p id="recipe-step"><%= i.step %></td>
-             <td> <p id="recipe-ingredients"><%= i.ingredients %></td>
+             <td> <p contenteditable="true" id="recipe-description"><%= i.description %></td>
+             <td> <p contenteditable="true" id="recipe-step"><%= i.step %></td>
+             <td> <p contenteditable="true" id="recipe-ingredients"><%= i.ingredients %></td>
             <td><p id="recipe-image"></p><img src ="/uploads/<%= i.image %>" alt="image" style="width:  190px;"  /></td>
             
              
